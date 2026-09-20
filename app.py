@@ -1,8 +1,8 @@
 # 加法
-# a=int(input("請輸入第一個數字："))
-# b=int(input("請輸入第二個數字："))
-# c=a+b
-# print(f'{a}+{b}={c}')
+a=int(input("請輸入第一個數字："))
+b=int(input("請輸入第二個數字："))
+c=a+b
+print(f'{a}+{b}={c}')
 
 # 算BMI
 height=float(input("輸入你的身高(m):"))
