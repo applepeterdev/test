@@ -33,3 +33,7 @@ button:hover {
 button:active {
   background-color: rgb(72, 77, 77);
 }
+
+#title {
+  color: blue;
+}
