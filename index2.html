@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="zh-tw">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>購物中心</title>
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+  <body>
+    <button onclick="console.log(`總金額是${total}元`)">購物車總額</button>
+    <button
+      onclick="
+        total = 0;
+        console.log('已清空購物車');
+        console.log(total);
+      "
+    >
+      清空購物車
+    </button>
+    <br /><br />
+    <img src="img/IMG_4170 2.jpg" alt="" />
+    <br />
+    <h2>
+      $100
+      <button
+        onclick="
+          total += 100;
+          console.log(`目前金額是${total}元`);
+        "
+      >
+        加入購物車
+      </button>
+    </h2>
+    <br /><br />
+    <img src="img/IMG_4297.PNG" alt="" />
+    <br />
+    <h2>
+      $200
+      <button
+        onclick="
+          total += 200;
+          console.log(`目前金額是${total}元`);
+        "
+      >
+        加入購物車
+      </button>
+    </h2>
+    <br /><br />
+    <img src="img/IMG_5097.JPG" alt="" />
+    <br />
+    <h2>
+      $300
+      <button
+        onclick="
+          total += 300;
+          console.log(`目前金額是${total}元`);
+        "
+      >
+        加入購物車
+      </button>
+    </h2>
+    <script src="app.js"></script>
+  </body>
+</html>

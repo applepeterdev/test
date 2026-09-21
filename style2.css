@@ -1,0 +1,19 @@
+img {
+  width: 300px;
+  height: 200px;
+}
+button {
+  width: 100px;
+  height: 50px;
+  border-radius: 30px;
+  border-style: none;
+  background-color: black;
+  color: aliceblue;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(59, 55, 48);
+}
+button:active {
+  background-color: rgb(65, 69, 71);
+}
