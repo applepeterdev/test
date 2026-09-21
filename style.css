@@ -1,4 +1,4 @@
-button {
+.sub {
   color: aliceblue;
   background-color: black;
   border-radius: 18px;
@@ -6,6 +6,24 @@ button {
   width: 60px;
   height: 36px;
   cursor: pointer;
+}
+.thumb {
+  color: aliceblue;
+  background-color: black;
+  border-radius: 18px;
+  border-style: none;
+  width: 60px;
+  height: 36px;
+  cursor: pointer;
+}
+.share {
+  color: aliceblue;
+  background-color: black;
+  border-radius: 18px;
+  border-style: none;
+  width: 60px;
+  height: 36px;
+  cursor: alias;
 }
 
 button:hover {
