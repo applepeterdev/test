@@ -1,0 +1,17 @@
+button {
+  color: aliceblue;
+  background-color: black;
+  border-radius: 18px;
+  border-style: none;
+  width: 60px;
+  height: 36px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(41, 46, 50);
+}
+
+button:active {
+  background-color: rgb(72, 77, 77);
+}
